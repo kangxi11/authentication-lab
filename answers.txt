@@ -2,4 +2,4 @@
 2. Httpie -a uses a username:password pair to authenticate.
 3. Session authentication relies on cookies that store session id to authenticate a user. Token authentication relies on secret tokens that are sent with every request to authenticate. Token authentication is better because we can expire or regenerate tokens and vulnerability is limited to just the API.
 4. With OAuth2 when Sign in with Google is clicked an authentication request is sent to the User of the Google account, once accepted by the user bitbucket would get authenticated to google. Bitbucket would then get an authentication token from Google. Using this token Bitbucket can get resources about the user from Google.
-5. 
+5. https://github.com/kangxi11/authentication-lab.git
